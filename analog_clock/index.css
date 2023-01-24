@@ -1,0 +1,55 @@
+.container{
+    position: relative;
+    background: url(Assets/clock.png) no-repeat;
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    background-size: 100%;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    border-radius: 100px;
+}
+
+#hour{
+    background: black;
+    position: absolute;
+    border-radius: 3px;
+    transform-origin: bottom;
+}
+#minute{
+    position: absolute;
+    border-radius: 3px;
+    background: linear-gradient(rgb(97, 97, 233),rgb(87, 235, 87));
+    transform-origin: bottom;
+}
+#second{
+    background: linear-gradient(rgb(240, 191, 102),rgb(236, 95, 95));
+    position: absolute;
+    border-radius: 3px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1%;
+    height: 16%;
+    left: 49.8%;
+    top: 29%;
+    opacity: 1;
+}
+
+#minute{
+    width: 1%;
+    height: 29%;
+    left: 49.8%;
+    top: 16%;
+    opacity: 1;
+
+}
+
+#second{
+    width: 0.5%;
+    height: 37%;
+    left: 50%;
+    top: 8%;
+    opacity: 1;
+}
