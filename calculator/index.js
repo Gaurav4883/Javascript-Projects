@@ -11,7 +11,11 @@ for (item of buttons) {
             screenDisplay += buttonText;
             screen.value += buttonText
         }
-
+        else if (buttonText == "%") {
+            buttonText = "/100";
+            screenDisplay += buttonText;
+            screen.value += buttonText;
+        }
         else if (buttonText == "C") {
             screenDisplay = "";
             screen.value = ""
