@@ -1,13 +1,13 @@
-.container{
+.container {
     text-align: center;
 }
 
-table{
+table {
     margin: auto;
     font-size: 30px;
 }
 
-input{
+input {
     font-size: 30px;
     width: 485px;
     height: 48px;
@@ -15,7 +15,7 @@ input{
     border-radius: 18px;
 }
 
-button{
+button {
     font-size: 30px;
     height: 64px;
     width: 121px;
@@ -24,9 +24,13 @@ button{
     background-color: rgb(106, 131, 106);
 }
 
-.calculate{
+.calculate {
     background-color: black;
     padding: 20px;
     display: inline-block;
     border-radius: 20px;
+}
+
+h1 {
+    font-family: cursive;
 }
